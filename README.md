@@ -264,6 +264,11 @@ go-xbuild-go -additional-files "new_file.txt,foo.txt"
 go-xbuild-go -release -release-note "New version"
 ```
 
+**Note:**
+ The following files are automatically included if they exist:
+ README.md, LICENSE.txt, LICENSE, platforms.txt, <project>.1
+ Do not specify these files in -additional-files as they will conflict.
+
 ## Best Practices
 
 ### Project Organization
