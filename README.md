@@ -29,7 +29,7 @@
 
 ## Introduction
 
-This project demonstrates the enhanced [go-xbuild-go](https://github.com/muquit/go-xbuild-go) **v1.0.5** 
+This project demonstrates the enhanced [go-xbuild-go](https://github.com/muquit/go-xbuild-go) **v1.0.5+** 
 functionality with support for multiple main packages and JSON 
 configuration.
 
