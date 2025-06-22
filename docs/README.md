@@ -229,7 +229,7 @@ go-xbuild-go v1.0.5 maintains full backward compatibility:
 go-xbuild-go
 
 # With additional files
-go-xbuild-go -additional-files "README.md,LICENSE"
+go-xbuild-go -additional-files "new_file.txt,foo.txt"
 
 # Create GitHub release
 go-xbuild-go -release -release-note "New version"
