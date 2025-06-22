@@ -1,0 +1,19 @@
+{
+  "project_name": "go-multi-main-example",
+  "version_file": "VERSION",
+  "platforms_file": "platforms.txt",
+  "default_ldflags": "-s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}}",
+  "default_build_flags": "-trimpath",
+  "targets": [
+    {
+      "name": "cli",
+      "path": "./cmd/cli",
+      "output_name": "example-cli"
+    },
+    {
+      "name": "server", 
+      "path": "./cmd/server",
+      "output_name": "example-server"
+    }
+  ]
+}
